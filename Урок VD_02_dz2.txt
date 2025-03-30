@@ -1,0 +1,77 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Карточки</title>
+</head>
+<body>
+    <div class="card-container">
+<div class="card">
+    <img src="user1.jpg" alt="Фото пользователя" class="card-image">
+    <div class="card-info">
+        <p><strong>Иванов Иван Иванович</strong></p>
+        <p>ivanov@example.com</p>
+        <p>15.03.1990</p>
+        <p>Санкт-Петербург</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="user2.jpg" alt="Фото пользователя" class="card-image">
+    <div class="card-info">
+        <p><strong>Петрова Анна Сергеевна</strong></p>
+        <p>petrova@example.com</p>
+        <p>22.07.1985</p>
+        <p>Москва</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="user3.jpg" alt="Фото пользователя" class="card-image">
+    <div class="card-info">
+        <p><strong>Сидоров Алексей Викторович</strong></p>
+        <p>sidorov@example.com</p>
+        <p>10.11.1995</p>
+        <p>Новосибирск</p>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+
+______________________________________________________________________________
+CSS
+
+.card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+.card-info p {
+    margin: 5px 0;
+}
