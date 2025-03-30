@@ -7,6 +7,9 @@ styles.css
 ---
 Дополнительные материалы:
 https://www.w3.org/Style/Examples/007/fonts.ru.html
+
 https://colorscheme.ru/html-colors.html
+
 https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox
+
 https://flexboxfroggy.com/#ru
