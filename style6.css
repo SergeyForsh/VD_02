@@ -1,0 +1,36 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #df30c2;
+    border-radius: 50%;
+    transition: 1s;
+}
+div:hover{
+    background-color: #d20f1c;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+a:link{
+    color: #E52B50;
+    font-size: 30px;
+}
+a:visited{
+    color: #6A5ACD;
+    font-size: 40px;
+}
+a:active{
+    color: #98FB98;
+    font-size: 30px;
+}
+
+h1::before{
+    content: "Город";
+    color: #aa30df;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: #4ba03b;
+}
+
+
+
